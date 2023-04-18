@@ -6,6 +6,50 @@ import Formulario from './componentes/Formulario';
 
 function App() {
 
+  const times = [
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     },
+
+     {
+      nome: '',
+      corPrimaria: '',
+      corSecundaria: ''
+     }
+  ]
+
   const [colaboradores, setColaboradores] = useState([])
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
