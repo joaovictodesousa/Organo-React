@@ -62,7 +62,7 @@ function App() {
       <Banner />
       <Formulario aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
 
-      {times.map(time => <Time nome={time.nome}/>)}
+      {/* {times.map(time => <Times nome={time.nome}/>)} */}
 
     </div>
   );
